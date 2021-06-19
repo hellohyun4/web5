@@ -1,0 +1,13 @@
+h1 {font-size:300%;}
+h2 {fond-size:20px;}
+p {fond-size: 2em;}
+
+.magenta{
+    color:magenta;
+}
+
+#alpha{
+    font-size: 25px
+}
+
+body{font-family : '나눔고딕'}

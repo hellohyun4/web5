@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>분식집에 가볼까?</title>
+    <link rel="stylesheet" href="style3.css">
+    <style>
+      html,body{
+        margin:0;
+        padding:0;
+      }
+      ul{
+        list-style : none;
+      }
+      a{
+         text-decoration: none;
+         color: blue;
+         font-size: 20px;
+         text-transform: uppercase;
+      }
+      li{
+         width:250px;
+         background-color:yellow;
+         padding:25px;
+         border-top:solid 4px blue;
+      }
+      li:hover{
+         background-color: red;
+         margin-left:15px;
+      }
+      @media(max-width:800px){
+        div{
+            display:none;
+        }
+      }
+    </style>
+</head>
+<body>
+    <h3 class="magenta" id="alpha">오늘 뭐 먹지?</h3>
+    <hr>
+    <div id="grid">
+    <ul>
+        <li>
+             <a href="ddekbokki.html">떡볶이</a>
+        </li>
+        <br>
+        <li>
+            <a href="ramen.html">라면</a>
+        </li>
+        <br>
+        <li>
+            <a href="sundae.html">순대</a>
+        </li>
+    </ul>
+    </div>
+</body>
+</html>
